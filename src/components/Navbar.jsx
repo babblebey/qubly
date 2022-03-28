@@ -11,13 +11,13 @@ const Navbar = () => {
 
     return ( 
         <div className="container">
-            <div className={`flex justify-between items-center px-10 py-4 ${toggleMenu && 'bg-white'}`}>
+            <div className={`flex justify-between items-center px-10 py-4 ${toggleMenu && 'bg-white shadow-sm'}`}>
                 <img src={logo} alt="Qubly" className="w-[38px] md:w-[48px]"/>
                 
                 <div className="hidden md:block">
                     <ul className="flex flex-col sm:flex-row items-center">
                         {['About', 'Pricing', 'Contact Us', 'Login'].map((item, index) => (
-                            <li key={index} className="font-medium px-4 cursor-pointer">
+                            <li key={index} className="text-black font-medium px-4 cursor-pointer">
                                 {item}
                             </li>
                         ))}
@@ -44,9 +44,9 @@ const Navbar = () => {
 
             {toggleMenu && (
                 <div className="md:hidden relative">
-                    <ul className="flex flex-col animate-slide-in items-center fixed w-fit right-0 bg-white rounded-bl-xl pb-5 px-10">
+                    <ul className="flex flex-col animate-slide-in items-center fixed w-fit right-0 bg-white shadow-sm rounded-bl-xl pb-5 px-10">
                         {['About', 'Pricing', 'Contact Us', 'Login'].map((item, index) => (
-                            <li key={index} className="font-medium p-2 cursor-pointer">
+                            <li key={index} className="text-black font-medium p-2 cursor-pointer">
                                 {item}
                             </li>
                         ))}
