@@ -44,7 +44,7 @@ const Navbar = () => {
 
             {toggleMenu && (
                 <div className="md:hidden relative">
-                    <ul className="flex flex-col animate-slide-in items-center fixed w-fit right-0 bg-white pb-5 px-10">
+                    <ul className="flex flex-col animate-slide-in items-center fixed w-fit right-0 bg-white rounded-bl-xl pb-5 px-10">
                         {['About', 'Pricing', 'Contact Us', 'Login'].map((item, index) => (
                             <li key={index} className="font-medium p-2 cursor-pointer">
                                 {item}
