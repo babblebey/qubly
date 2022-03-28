@@ -254,6 +254,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.container {
+    @apply w-full max-w-[1400px] mx-auto;
+}
+
 .pill {
-    @apply flex items-center rounded-full py-2 px-3 bg-secondary-100 w-fit text-secondary-200 font-medium text-sm;
+    @apply flex items-center rounded-full bg-secondary-100 w-fit text-secondary-200 font-medium text-sm;
 }

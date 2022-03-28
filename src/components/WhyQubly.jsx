@@ -1,8 +1,8 @@
 const WhyQubly = () => {
     return ( 
-        <div className="w-full max-w-[1400px] m-auto">
+        <div className="container my-14">
             <div className="w-full flex justify-center">
-                <div className="pill">
+                <div className="pill py-2 px-3">
                     <svg className="w-5 mr-2" xmlns="http://www.w3.org/2000/svg" width="25.776" height="17.184" viewBox="0 0 25.776 17.184">
                         <path id="Icon_awesome-eye" data-name="Icon awesome-eye" d="M25.62,12.439A14.353,14.353,0,0,0,12.888,4.5,14.355,14.355,0,0,0,.156,12.439a1.448,1.448,0,0,0,0,1.306,14.353,14.353,0,0,0,12.732,7.939A14.355,14.355,0,0,0,25.62,13.745,1.448,1.448,0,0,0,25.62,12.439Zm-12.732,7.1a6.444,6.444,0,1,1,6.444-6.444A6.444,6.444,0,0,1,12.888,19.536Zm0-10.74a4.265,4.265,0,0,0-1.133.17,2.141,2.141,0,0,1-2.994,2.994A4.286,4.286,0,1,0,12.888,8.8Z" transform="translate(0 -4.5)" fill="#722ed1"/>
                     </svg>
@@ -25,7 +25,7 @@ const WhyQubly = () => {
             <div className=" w-full md:w-10/12 m-auto flex flex-col md:flex-row justify-center md:justify-between items-center mt-6">
                 <div className="w-full p-6 md:p-4 md:w-[35%] text-center md:text-left">
                     <div className="rounded-full p-3 w-fit bg-[#F6FFED] m-auto md:m-0">
-                        <svg class xmlns="http://www.w3.org/2000/svg" width="16" height="16.437" viewBox="0 0 16 16.437">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.437" viewBox="0 0 16 16.437">
                             <g id="Group_15" data-name="Group 15" transform="translate(-0.219)">
                                 <path id="Path_618" data-name="Path 618" d="M14.568,0H13.541V7.7H12V8.732h1.541v7.7h1.027V13.355h1.541V12.328H14.568V4.109h1.541V3.082H14.568Z" transform="translate(-5.836)" fill="#52c41a"/>
                                     <rect id="Rectangle_370" data-name="Rectangle 370" width="5" height="5" rx="1" transform="translate(11.219 1.219)" fill="#52c41a"/>
@@ -34,7 +34,7 @@ const WhyQubly = () => {
                             </g>
                         </svg>
                     </div>
-                    <h2 className="font-bold text-[21px] text-primary-200">
+                    <h2 className="font-bold text-[21px] text-primary-200 my-4">
                         Data in <br />
                         real-time
                     </h2>
@@ -55,7 +55,7 @@ const WhyQubly = () => {
                         </svg>
 
                     </div>
-                    <h2 className="font-bold text-[21px] text-primary-200">
+                    <h2 className="font-bold text-[21px] text-primary-200 my-4">
                         Powerful <br />
                         Algorithms
                     </h2>
@@ -76,7 +76,7 @@ const WhyQubly = () => {
                         </svg>
 
                     </div>
-                    <h2 className="font-bold text-[21px] text-primary-200">
+                    <h2 className="font-bold text-[21px] text-primary-200 my-4">
                         Valuable business <br />
                         insights
                     </h2>

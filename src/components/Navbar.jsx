@@ -10,7 +10,7 @@ const Navbar = () => {
     }
 
     return ( 
-        <div className="w-full max-w-[1400px] m-auto">
+        <div className="container">
             <div className={`flex justify-between items-center px-10 py-4 ${toggleMenu && 'bg-white'}`}>
                 <img src={logo} alt="Qubly" className="w-[38px] md:w-[48px]"/>
                 
