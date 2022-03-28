@@ -2,7 +2,7 @@ import stack from '../img/engnr-team.svg'
 
 const ForEngineeringTeams = () => {
     return ( 
-        <div className="container my-24">
+        <div className="container my-10 md:my-24">
             <div className="w-full flex flex-col md:flex-row md:w-11/12 m-auto justify-center items-center">
                 <div className="w-full md:w-6/12 text-center md:text-left p-10">
                     <div className="pill py-2 px-4 mx-auto md:mx-0">

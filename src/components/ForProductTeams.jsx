@@ -2,7 +2,7 @@ import stack from '../img/prod-team.svg';
 
 const ForProductTeams = () => {
     return ( 
-        <div className="container my-24">
+        <div className="container my-10 md:my-24">
             <div className="w-full flex flex-col-reverse md:flex-row md:w-11/12 m-auto justify-start items-center">
                 <div className="w-full md:w-6/12">
                     <img src={stack} alt="For Product Teams" className="m-auto md:m-0 md:w-[80%]"/>

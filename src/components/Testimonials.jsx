@@ -20,15 +20,15 @@ const Testimonials = () => {
                     </p>
                 </div>
 
-                <div className="w-full md:w-10/12 mx-auto mt-16 px-4 hidden md:block">
+                <div className="w-full md:w-10/12 mx-auto mt-16 px-4">
                     <div className="h-[1px] w-full bg-[#DEC9FA]" />
 
-                    <div className="flex justify-between items-center py-10 px-4">
-                        <img src={tonkean} alt="Tonkean" />
-                        <img src={bigspring} alt="BigSpring" />
-                        <img src={clearbit} alt="Ckearbit" />
-                        <img src={mine} alt="Mine" />
-                        <img src={shake} alt="Shake" />
+                    <div className="flex flex-wrap lg:flex-nowrap justify-evenly md:justify-between items-center py-10 px-4">
+                        <img src={tonkean} alt="Tonkean" className="basis-1/3 h-[25px] md:h-full mb-4 w-auto md:basis-1" />
+                        <img src={bigspring} alt="BigSpring" className="basis-1/3 h-[25px] md:h-full mb-4 w-auto md:basis-1" />
+                        <img src={clearbit} alt="Clearbit" className="basis-1/3 h-[25px] md:h-full mb-4 w-auto md:basis-1" />
+                        <img src={mine} alt="Mine" className="basis-1/3 h-[25px] md:h-full mb-4 w-auto md:basis-1" />
+                        <img src={shake} alt="Shake" className="basis-1/3 h-[25px] md:h-full mb-4 w-auto md:basis-1" />
                     </div>
                 </div>
             </div>
