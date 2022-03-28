@@ -1,15 +1,11 @@
-<svg width="410" height="404" viewBox="0 0 410 404" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M399.641 59.5246L215.643 388.545C211.844 395.338 202.084 395.378 198.228 388.618L10.5817 59.5563C6.38087 52.1896 12.6802 43.2665 21.0281 44.7586L205.223 77.6824C206.398 77.8924 207.601 77.8904 208.776 77.6763L389.119 44.8058C397.439 43.2894 403.768 52.1434 399.641 59.5246Z" fill="url(#paint0_linear)"/>
-<path d="M292.965 1.5744L156.801 28.2552C154.563 28.6937 152.906 30.5903 152.771 32.8664L144.395 174.33C144.198 177.662 147.258 180.248 150.51 179.498L188.42 170.749C191.967 169.931 195.172 173.055 194.443 176.622L183.18 231.775C182.422 235.487 185.907 238.661 189.532 237.56L212.947 230.446C216.577 229.344 220.065 232.527 219.297 236.242L201.398 322.875C200.278 328.294 207.486 331.249 210.492 326.603L212.5 323.5L323.454 102.072C325.312 98.3645 322.108 94.137 318.036 94.9228L279.014 102.454C275.347 103.161 272.227 99.746 273.262 96.1583L298.731 7.86689C299.767 4.27314 296.636 0.855181 292.965 1.5744Z" fill="url(#paint1_linear)"/>
-<defs>
-<linearGradient id="paint0_linear" x1="6.00017" y1="32.9999" x2="235" y2="344" gradientUnits="userSpaceOnUse">
-<stop stop-color="#41D1FF"/>
-<stop offset="1" stop-color="#BD34FE"/>
-</linearGradient>
-<linearGradient id="paint1_linear" x1="194.651" y1="8.81818" x2="236.076" y2="292.989" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FFEA83"/>
-<stop offset="0.0833333" stop-color="#FFDD35"/>
-<stop offset="1" stop-color="#FFA800"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Logo" transform="translate(-1756.067 -378.462)">
+    <path id="Path_611" data-name="Path 611" d="M1756.072,478.465" transform="translate(-0.004 -72.574)" fill="#0032d8"/>
+    <path id="Path_612" data-name="Path 612" d="M1780.065,378.462v13.716l-12,6.857-12-6.858h0Z" transform="translate(0 0)" fill="#431f5a"/>
+    <path id="Path_613" data-name="Path 613" d="M1768.067,435.321l12,6.857v13.714h0l-12-6.857-12-6.857V428.463Z" transform="translate(0 -36.287)" fill="#722ed1"/>
+    <path id="Path_614" data-name="Path 614" d="M1854.67,485.32v13.713l-12-6.856h0V478.463Z" transform="translate(-62.604 -72.572)" fill="#722ed1"/>
+    <path id="Path_615" data-name="Path 615" d="M1842.669,378.462v0h0v13.714h0l12,6.856v0h0l12,6.856V392.177Z" transform="translate(-62.604)" fill="#722ed1"/>
+    <path id="Path_616" data-name="Path 616" d="M1866.668,428.463v13.716l-12,6.857-12-6.858,12-6.858Z" transform="translate(-62.604 -36.287)" fill="#431f5a"/>
+    <path id="Path_617" data-name="Path 617" d="M1854.67,485.32l-12,6.857h0V478.463Z" transform="translate(-62.604 -72.572)" fill="#431f5a"/>
+  </g>
 </svg>
