@@ -11,7 +11,7 @@ const Input = ({name, type, placeholder, value}) => (
         placeholder={placeholder}
         value={value}
         className="border-[1.5px] border-[#8989A2] rounded bg-white text-primary-100 outline-none 
-            font-medium w-full p-3 mb-4 focus-visible:border-secondary-200"
+            font-medium w-full p-2 md:p-3 mb-4 focus-visible:border-secondary-200"
      />
 );
 
@@ -42,7 +42,7 @@ const SignupForm = () => {
             <div className="w-full lg:w-6/12 p-2">
                 <div className="h-full w-full bg-secondary-100 rounded-md">
                     <div className="bg-white w-10/12 m-auto px-10 pb-8 relative -top-10 border border-secondary-100 shadow-lg rounded-md">
-                        <h2 className="text-primary-200 font-bold text-[28px] text-center my-8">
+                        <h2 className="text-primary-200 font-bold text-xl md:text-[28px] text-center my-8">
                             Sign Up
                         </h2>
 
@@ -58,15 +58,15 @@ const SignupForm = () => {
                             </p>
                         </button>
 
-                        <p className="text-center my-5 font-medium text-primary-200">OR</p>
+                        <p className="text-center my-3 md:my-5 font-medium text-primary-200">OR</p>
 
-                        <div className="cursor-pointer w-[50%] m-auto">
+                        <div className="cursor-pointer w-full md:w-[50%] m-auto">
                            <img src={googleBTN} className="w-full" /> 
                         </div>
 
                         <div className="h-[1px] w-full bg-[#8989A2] my-6" />
 
-                        <p className="text-center text-primary-100">
+                        <p className="text-center text-primary-100 text-sm md:text-base">
                             Already have an account? 
                             <a href="#" className="underline text-blue-700 ml-2">Login</a>
                         </p>
