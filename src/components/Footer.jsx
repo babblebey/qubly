@@ -101,7 +101,7 @@ const Footer = () => {
                     </a>
                 </p>
                 <p className="basis-1/1 text-sm mt-5 italic text-center">
-                    <a href="https://instagram.com/babblebey" className="text-secondary-200 underline mx-1" target="_blank">
+                    <a href="https://github.com/babblebey/qubly" className="text-secondary-200 underline mx-1" target="_blank">
                         View Source on GitHub
                     </a>
                 </p>
