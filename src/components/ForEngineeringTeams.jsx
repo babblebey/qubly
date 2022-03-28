@@ -17,7 +17,7 @@ const ForEngineeringTeams = () => {
 
                         <p>For Engineering Teams</p>
                     </div>
-                    <h2 className="font-bold text-[36px] text-primary-200 my-4 leading-tight">
+                    <h2 className="sec-title my-4">
                         Data-driven <br />
                         pipelines in minutes
                     </h2>

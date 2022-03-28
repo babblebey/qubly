@@ -261,3 +261,7 @@
 .pill {
     @apply flex items-center rounded-full bg-secondary-100 w-fit text-secondary-200 font-medium text-sm;
 }
+
+.sec-title {
+    @apply font-bold text-3xl md:text-[36px] text-primary-200 leading-tight
+}

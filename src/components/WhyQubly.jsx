@@ -12,7 +12,7 @@ const WhyQubly = () => {
 
             
             <div className="w-full md:w-6/12 m-auto text-center mt-6">
-                <h2 className="font-bold text-3xl md:text-[36px] leading-tight text-primary-200 mb-4">
+                <h2 className="sec-title mb-4">
                     Get actionable insights <br />
                     from Big Data in 3 steps
                 </h2>
