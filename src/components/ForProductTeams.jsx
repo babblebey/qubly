@@ -3,12 +3,12 @@ import stack from '../img/prod-team.svg';
 const ForProductTeams = () => {
     return ( 
         <div className="container my-24">
-            <div className="w-full flex flex-col md:flex-row md:w-11/12 m-auto justify-start items-center">
+            <div className="w-full flex flex-col-reverse md:flex-row md:w-11/12 m-auto justify-start items-center">
                 <div className="w-full md:w-6/12">
                     <img src={stack} alt="For Product Teams" className="m-auto md:m-0 md:w-[80%]"/>
                 </div>
 
-                <div className="w-full md:w-6/12 text-center md:text-left">
+                <div className="w-full md:w-6/12 text-center md:text-left p-10">
                     <div className="pill py-2 px-4 mx-auto md:mx-0">
                         <svg className="w-6 mr-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24.012" viewBox="0 0 24 24.012">
                             <g id="electronic-circuit" transform="translate(0 0.012)">
