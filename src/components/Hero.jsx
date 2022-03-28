@@ -2,7 +2,7 @@ import heroImg from '../img/hero.svg';
 
 const Hero = () => {
     return ( 
-        <div className="w-full max-w-[1400px] m-auto flex flex-col lg:flex-row items-center px-10 pb-10 md:pb-36 mt-10 mb-24">
+        <div className="w-full max-w-[1400px] m-auto flex flex-col lg:flex-row items-center px-10 pb-10 md:pb-36 mt-10 mb-28">
             <div className="w-full lg:w-6/12">
                 <div className="rounded-full flex items-center justify-center bg-secondary-100 w-fit py-2 px-4 mb-2">
                     <svg id="edit-brightness" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
