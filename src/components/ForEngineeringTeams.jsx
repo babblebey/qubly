@@ -4,9 +4,9 @@ const ForEngineeringTeams = () => {
     return ( 
         <div className="container my-10 md:my-24">
             <div className="w-full flex flex-col md:flex-row md:w-11/12 m-auto justify-center items-center">
-                <div className="w-full md:w-6/12 text-center md:text-left p-10">
+                <div className="w-full md:w-6/12 text-center md:text-left p-2 md:p-10">
                     <div className="pill py-2 px-4 mx-auto md:mx-0">
-                        <svg className="w-6 mr-3" xmlns="http://www.w3.org/2000/svg" width="23.226" height="24" viewBox="0 0 23.226 24">
+                        <svg className="w-5 md:w-6 mr-3" xmlns="http://www.w3.org/2000/svg" width="23.226" height="24" viewBox="0 0 23.226 24">
                             <g id="compass" transform="translate(-1)">
                                 <g id="Group_28" data-name="Group 28" transform="translate(1)">
                                 <path id="Path_681" data-name="Path 681" d="M15.645,2.4V0H14.1V2.4a3.871,3.871,0,1,0,1.548,0Z" transform="translate(-3.258)" fill="#722ed1"/>

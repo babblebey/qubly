@@ -2,7 +2,7 @@ import heroImg from '../img/hero.svg';
 
 const Hero = () => {
     return ( 
-        <div className="container flex flex-col md:flex-row items-center px-10 pb-10 md:pb-36 mt-10 mb-28">
+        <div className="container flex flex-col md:flex-row items-center px-4 md:px-10 pb-10 md:pb-36 mt-10 mb-28">
             <div className="w-full lg:w-6/12">
                 <div className="rounded-full flex items-center justify-center bg-secondary-100 w-fit py-2 px-4 mb-2">
                     <svg id="edit-brightness" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
@@ -19,11 +19,11 @@ const Hero = () => {
                 <p className="font-medium text-primary-100 text-[16px] w-full md:w-9/12">
                     Harness the potential of Big Data Analytics & Cloud Services and become a data-driven organization with Needle tail
                 </p>
-                <div className="flex items-center mt-5">
-                    <button className="rounded-full py-2 md:py-4 px-6 md:px-10 shadow-md hover:shadow-xl bg-secondary-200">
+                <div className="mt-5">
+                    <button className="rounded-full py-2 md:py-4 px-6 md:px-10 mr-3 mb-3 shadow-md hover:shadow-xl bg-secondary-200">
                         <p className="text-white">Start free trial</p>
                     </button>
-                    <button className="rounded-full py-2 md:py-4 px-6 md:px-10 bg-white hover:shadow-xl ml-3">
+                    <button className="rounded-full py-2 md:py-4 px-6 md:px-10 mb-3 bg-white hover:shadow-xl">
                         <p className="text-primary-200">Learn More</p>
                     </button>
                 </div>

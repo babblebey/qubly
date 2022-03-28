@@ -17,32 +17,32 @@ const Input = ({name, type, placeholder, value}) => (
 
 const SignupForm = () => {
     return ( 
-        <div className="container px-10 flex flex-col lg:flex-row justify-center items-center">
+        <div className="container px-2 md:px-10 flex flex-col lg:flex-row justify-center items-center">
             <div className="w-full lg:w-6/12 text-center mb-14 lg:mb-0">
-                <h2 className="sec-title mb-10">
-                    See why the world's best <br />
-                    companies use Qubly to <br /> 
+                <h2 className="sec-title mb-5 md:mb-10">
+                    See why the world's best <br className="hidden"/>
+                    companies use Qubly to <br className="hidden"/> 
                     become truly data-driven.
                 </h2>
                 <div className="flex w-10/12 m-auto items-center justify-evenly">
-                    <div className="h-[1px] w-4/12 bg-primary-100" />
-                    <p className="w-fit font-medium text-primary-100">
+                    <div className="h-[1px] w-3/12 md:w-4/12 bg-primary-100" />
+                    <p className="w-6/12 md:w-fit font-medium text-primary-100">
                         Trusted by
                     </p>
-                    <div className="h-[1px] w-4/12 bg-primary-100" />
+                    <div className="h-[1px] w-3/12 md:w-4/12 bg-primary-100" />
                 </div>
-                <div className="w-10/12 m-auto flex flex-wrap justify-evenly items-center">
-                    <img src={accenture} alt="Accenture" className="max-h-10 basis-1/2 my-6" />
-                    <img src={react} alt="React" className="max-h-20 basis-1/2 my-6" />
-                    <img src={airbnb} alt="AirBnB" className="max-h-10 basis-1/2 my-6" />
-                    <img src={sky} alt="Sky" className="max-h-10 basis-1/2 my-6" />
+                <div className="w-full md:w-10/12 m-auto flex flex-wrap justify-evenly items-center">
+                    <img src={accenture} alt="Accenture" className="max-h-6 md:max-h-10 basis-1/2 my-2 md:my-6" />
+                    <img src={react} alt="React" className="max-h-12 md:max-h-20 basis-1/2 my-2 md:my-6" />
+                    <img src={airbnb} alt="AirBnB" className="max-h-6 md:max-h-10 basis-1/2 my-2 md:my-6" />
+                    <img src={sky} alt="Sky" className="max-h-6 md:max-h-10 basis-1/2 my-2 md:my-6" />
                 </div>
             </div>
 
-            <div className="w-full lg:w-6/12 p-2">
+            <div className="w-full lg:w-6/12 p-1 md:p-2">
                 <div className="h-full w-full bg-secondary-100 rounded-md">
-                    <div className="bg-white w-10/12 m-auto px-10 pb-8 relative -top-10 border border-secondary-100 shadow-lg rounded-md">
-                        <h2 className="text-primary-200 font-bold text-xl md:text-[28px] text-center my-8">
+                    <div className="bg-white w-11/12 md:w-10/12 m-auto px-4 md:px-10 pb-8 relative -top-10 border border-secondary-100 shadow-lg rounded-md">
+                        <h2 className="text-primary-200 font-bold text-xl md:text-[28px] text-center my-4 md:my-8">
                             Sign Up
                         </h2>
 

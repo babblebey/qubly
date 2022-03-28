@@ -1,6 +1,6 @@
 const WhyQubly = () => {
     return ( 
-        <div className="container my-14">
+        <div className="container my-14 px-4">
             <div className="w-full flex justify-center">
                 <div className="pill py-2 px-3">
                     <svg className="w-5 mr-2" xmlns="http://www.w3.org/2000/svg" width="25.776" height="17.184" viewBox="0 0 25.776 17.184">
@@ -23,7 +23,7 @@ const WhyQubly = () => {
             </div>
 
             <div className=" w-full md:w-10/12 m-auto flex flex-col md:flex-row justify-center md:justify-between items-center mt-6">
-                <div className="w-full p-6 md:p-4 md:w-[35%] text-center md:text-left">
+                <div className="w-full p-2 md:p-4 md:w-[35%] text-center md:text-left">
                     <div className="rounded-full p-3 w-fit bg-[#F6FFED] m-auto md:m-0">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.437" viewBox="0 0 16 16.437">
                             <g id="Group_15" data-name="Group 15" transform="translate(-0.219)">
@@ -43,7 +43,7 @@ const WhyQubly = () => {
                     </p>
                 </div>
 
-                <div className="w-full p-6 md:p-4 md:w-[35%] text-center md:text-left">
+                <div className="w-full p-2 md:p-4 md:w-[35%] text-center md:text-left">
                     <div className="rounded-full p-3 w-fit bg-[#FFF1F0] m-auto md:m-0">
                         <svg id="newsletter-dev" xmlns="http://www.w3.org/2000/svg" width="16.092" height="16.092" viewBox="0 0 16.092 16.092">
                             <g id="Group_19" data-name="Group 19">
@@ -64,7 +64,7 @@ const WhyQubly = () => {
                     </p>
                 </div>
 
-                <div className="w-full p-6 md:p-4 md:w-[35%] text-center md:text-left">
+                <div className="w-full p-2 md:p-4 md:w-[35%] text-center md:text-left">
                     <div className="rounded-full p-3 w-fit bg-[#E6F7FF] m-auto md:m-0">
                         <svg id="chart-bar-33" xmlns="http://www.w3.org/2000/svg" width="17.32" height="17.32" viewBox="0 0 17.32 17.32">
                             <g id="Group_18" data-name="Group 18">

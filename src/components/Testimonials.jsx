@@ -7,8 +7,8 @@ import mine from '../img/mine.svg';
 
 const Testimonials = () => {
     return ( 
-        <div className="bg-gradient-to-b from-[#F9F0FF] to-[#E2F1FF] -skew-y-6 mb-28">
-            <div className="container py-28 skew-y-6">
+        <div className="bg-gradient-to-b from-[#F9F0FF] to-[#E2F1FF] -skew-y-6 mb-12 md:mb-28">
+            <div className="container py-14 md:py-28 skew-y-6">
                 <div className="w-full md:w-6/12 m-auto px-4 text-center">
                     <p className="font-medium text-primary-200 text-lg">
                         "What I love about Qubly is the easy way we can collaborate even if there is a lot of people involved in the process"

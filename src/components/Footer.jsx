@@ -5,7 +5,7 @@ import instagramIcon from '../icon/instagram.svg';
 
 const Footer = () => {
     return ( 
-        <div className="container my-10 md:my-24 px-10 pt-10 pb-5">
+        <div className="container my-10 md:my-24 px-4 md:px-10 pt-10 pb-5">
             <div className="flex flex-col-reverse md:flex-row justify-start items-start">
                 <div className="w-full md:w-3/12 pr-5">
                     <img src={logo} alt="Qubly" className="mb-2 mx-auto md:mx-0 w-[70px]" />
@@ -26,7 +26,7 @@ const Footer = () => {
                     </h2>
                     <ul className="text-sm font-medium">
                         {['Connections', 'Protocols', 'Personas', 'Integrations', 'Catalog', 'Pricing', 'Security', 'GDPR'].map((item, index) => (
-                            <li key={index} className="my-2">
+                            <li key={index} className="my-2 cursor-pointer">
                                 { item }
                             </li>
                         ))}
@@ -38,7 +38,7 @@ const Footer = () => {
                     </h2>
                     <ul className="text-sm font-medium">
                         {['Docs', 'API', 'Open Source', 'Engineering Team'].map((item, index) => (
-                            <li key={index} className="my-2">
+                            <li key={index} className="my-2 cursor-pointer">
                                 { item }
                             </li>
                         ))}
@@ -50,7 +50,7 @@ const Footer = () => {
                     </h2>
                     <ul className="text-sm font-medium">
                         {['Careers', 'Blog', 'Press'].map((item, index) => (
-                            <li key={index} className="my-2">
+                            <li key={index} className="my-2 cursor-pointer">
                                 { item }
                             </li>
                         ))}
@@ -62,7 +62,7 @@ const Footer = () => {
                     </h2>
                     <ul className="text-sm font-medium">
                         {['Help Center', 'Contact Us', 'Security Bulletins', 'Documentation', 'Partner Portal'].map((item, index) => (
-                            <li key={index} className="my-2">
+                            <li key={index} className="my-2 cursor-pointer">
                                 { item }
                             </li>
                         ))}
