@@ -2,17 +2,17 @@ const WhyQubly = () => {
     return ( 
         <div className="w-full max-w-[1400px] m-auto">
             <div className="w-full flex justify-center">
-                <div className="flex items-center rounded-full py-2 px-3 bg-secondary-100 w-fit">
+                <div className="pill">
                     <svg className="w-5 mr-2" xmlns="http://www.w3.org/2000/svg" width="25.776" height="17.184" viewBox="0 0 25.776 17.184">
                         <path id="Icon_awesome-eye" data-name="Icon awesome-eye" d="M25.62,12.439A14.353,14.353,0,0,0,12.888,4.5,14.355,14.355,0,0,0,.156,12.439a1.448,1.448,0,0,0,0,1.306,14.353,14.353,0,0,0,12.732,7.939A14.355,14.355,0,0,0,25.62,13.745,1.448,1.448,0,0,0,25.62,12.439Zm-12.732,7.1a6.444,6.444,0,1,1,6.444-6.444A6.444,6.444,0,0,1,12.888,19.536Zm0-10.74a4.265,4.265,0,0,0-1.133.17,2.141,2.141,0,0,1-2.994,2.994A4.286,4.286,0,1,0,12.888,8.8Z" transform="translate(0 -4.5)" fill="#722ed1"/>
                     </svg>
-                    <p className="text-secondary-200 font-medium text-sm">Why Qubly</p>
+                    <p>Why Qubly</p>
                 </div>
             </div>
 
             
             <div className="w-full md:w-6/12 m-auto text-center mt-6">
-                <h2 className="font-bold text-[36px] leading-tight text-primary-200 mb-4">
+                <h2 className="font-bold text-3xl md:text-[36px] leading-tight text-primary-200 mb-4">
                     Get actionable insights <br />
                     from Big Data in 3 steps
                 </h2>

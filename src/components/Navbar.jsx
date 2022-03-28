@@ -43,16 +43,16 @@ const Navbar = () => {
             </div>
 
             {toggleMenu && (
-                <div className="md:hidden relative animate-slide-in">
-                    <ul className="flex flex-col items-center fixed w-full bg-white pb-5">
+                <div className="md:hidden relative">
+                    <ul className="flex flex-col animate-slide-in items-center fixed w-fit right-0 bg-white pb-5 px-10">
                         {['About', 'Pricing', 'Contact Us', 'Login'].map((item, index) => (
                             <li key={index} className="font-medium p-2 cursor-pointer">
                                 {item}
                             </li>
                         ))}
-                        <li className="p-2 cursor-pointer">
-                            <button className="rounded-full border border-secondary-200 py-1 px-7 hover:bg-secondary-200 transition ease-out duration-300">
-                                <p className="text-secondary-200 hover:text-white">Get Started</p>
+                        <li className="p-2 group cursor-pointer">
+                            <button className="rounded-full border border-secondary-200 py-1 px-7 group-hover:bg-secondary-200 transition ease-out duration-300">
+                                <p className="text-secondary-200 group-hover:text-white">Get Started</p>
                             </button>
                         </li>
                     </ul>
