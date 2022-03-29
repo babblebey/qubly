@@ -20,8 +20,8 @@ const SignupForm = () => {
         <div className="container px-2 md:px-10 flex flex-col lg:flex-row justify-center items-center">
             <div className="w-full lg:w-6/12 text-center mb-14 lg:mb-0">
                 <h2 className="sec-title mb-5 md:mb-10">
-                    See why the world's best <br className="hidden"/>
-                    companies use Qubly to <br className="hidden"/> 
+                    See why the world's best <br className="hidden md:block"/>
+                    companies use Qubly to <br className="hidden md:block"/> 
                     become truly data-driven.
                 </h2>
                 <div className="flex w-10/12 m-auto items-center justify-evenly">
