@@ -6,6 +6,8 @@
   </a>
 </p>
 
+![Qubly Screenshot](https://i.ibb.co/Gn2Y2fB/screenshot-qubly-bey-netlify-app-2022-06-15-14-51-50.png)
+
 > A React x TailwindCSS Project I built on Day 66 of #100daysofcode challenge made from a UI Design by [Rahul Rao](https://dribbble.com/shots/10847367-Qubly-XD-Freebie)
 
 ### ✨ [Live Preview](https://qubly-bey.netlify.app/)
